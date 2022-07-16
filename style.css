@@ -1,0 +1,154 @@
+/*Fonts*/
+@font-face {
+    font-family: Quicksand; /* Имя шрифта */
+    src: url(../fonts/Quicksand/static/Quicksand-Regular.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Quicksand; /* Имя шрифта */
+    src: url(../fonts/Quicksand/static/Quicksand-Bold.ttf);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: Roboto; /* Имя шрифта */
+    src: url(../fonts/Roboto/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+  }
+
+/*Header*/
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1440px;
+}
+.header{
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 74px;
+}
+.menu__item {
+text-decoration: none;
+color: #697ca6 ;
+}
+.menu__item:hover {
+color: #525783;
+}
+.menu__item.menu__item--active {
+    color: #5e81fe;
+  }
+  
+  .menu__item + .menu__item {
+    margin-left: 42px;
+  }
+  
+  .socials {
+    margin-right: 44px;
+  }
+  .socials__item:hover {
+    filter: invert(46%) sepia(69%) saturate(1507%) hue-rotate(206deg)
+      brightness(101%) contrast(100%);
+  }
+  
+  .socials__item:not(:last-child) {
+    margin-right: 38px;
+  }
+  .btn {
+    font-weight: 700;
+    height: 43px;
+    padding: 0px 14px;
+  }
+  
+  .btn.btn--primary {
+    background-color: #d8e0f7;
+    border-color: #d8e0f7;
+    border-style: solid;
+    color: #3a79ff;
+    border-radius: 2px;
+  }
+  
+  .btn.btn--primary:hover {
+    cursor: pointer;
+    background-color: #bdc7e2;
+    border-color: #bdc7e2;
+  }
+  .section.section--hero {
+    padding-top: 92px;
+    padding-bottom: 208px;
+    background-image: image();
+}
+.section.section--hero .container {
+  text-align: center;
+}
+
+.title.title--small {
+  font-size: 10px;
+  font-family: Roboto;
+  letter-spacing: 0.1em;
+  margin-bottom: 18px;
+  color: #3D4F9F;
+}
+
+.title {
+    font-size: 48px;
+    font-family: 'Quicksand';
+    letter-spacing: -0.01em;
+    margin-bottom: 28px;
+    color: #3D4F9F;
+}
+
+.section.section--hero p {
+    max-width: 502px;
+    margin: 0 auto;
+    line-height: 1.7em;
+    color: #8D96BD;
+}
+
+.section.section--hero p {
+    margin-bottom: 20px;
+}
+
+button.btn.btn--circle {
+    border-radius: 50%;
+    height: 52px;
+    width: 52px;
+    border-color: #fff;
+    background-color: #fff;
+    border-style: solid;
+    box-shadow: 1px 1px 1px 1px;
+    }  
+
+.section.section--hero {
+  margin-bottom: 58px;
+}
+section.partners.partners--brands {
+  justify-content: center;
+  letter-spacing: 72px;
+  display: flex;
+   width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1208px;
+  margin-bottom: 170px;
+}
+.partners__item:hover {
+    color: #5982E7;
+}
